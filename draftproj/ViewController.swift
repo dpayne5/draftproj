@@ -16,7 +16,8 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     let magic = Magic()
     
-    var sendURL : String!
+    var sendURL  = "https://mtgjson.com/json/WAR.json"
+    
     
     let MF = manaFONT()
     
@@ -50,6 +51,10 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
         return testData[row]
     }
     
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        sendURL = testDataJSONS[row]
+    }
+    
     //placeholder data object
     //pickerview variable
     @IBOutlet weak var setPickerView: UIPickerView!
@@ -68,7 +73,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     @IBAction func startGameButton(_ sender: Any) {
         
         
-        testJSONgrab.getCards(url: "https://mtgjson.com/json/RNA.json") {json, error in
+        testJSONgrab.getCards(url: sendURL) {json, error in
             
             DispatchQueue.main.async {
                 self.wantedCARDSET = json
