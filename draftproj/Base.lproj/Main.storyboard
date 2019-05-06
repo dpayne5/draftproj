@@ -387,6 +387,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8NZ-U6-mWt">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
                                         <state key="normal" title="Return to title"/>
+                                        <connections>
+                                            <action selector="unwindButton:" destination="YWh-NC-mE0" eventType="touchUpInside" id="PiZ-21-Mp7"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
