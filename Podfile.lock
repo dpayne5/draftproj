@@ -1,0 +1,46 @@
+PODS:
+  - FoldingCell (4.0.3)
+  - iCarousel (1.8.3)
+  - MTGSDKSwift (1.0.0)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - SDWebImage (4.4.6):
+    - SDWebImage/Core (= 4.4.6)
+  - SDWebImage/Core (4.4.6)
+  - SwipeCellKit (2.5.1)
+
+DEPENDENCIES:
+  - FoldingCell
+  - iCarousel (~> 1.8)
+  - MTGSDKSwift
+  - PromiseKit
+  - SDWebImage
+  - SwipeCellKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FoldingCell
+    - iCarousel
+    - MTGSDKSwift
+    - PromiseKit
+    - SDWebImage
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  FoldingCell: 617197a8ec9feff741419361e756eea71d60559f
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  MTGSDKSwift: c6dfc96f12a5477fd5c9231749253c3a9cdfd393
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  SDWebImage: 3f3f0c02f09798048c47a5ed0a13f17b063572d8
+  SwipeCellKit: 30fd6a4f8a8b8ac864ea389c8b4c8bac5ba5471a
+
+PODFILE CHECKSUM: 9b7401f62c21f5f24b0f76a62dde6f8d82419f0a
+
+COCOAPODS: 1.6.1

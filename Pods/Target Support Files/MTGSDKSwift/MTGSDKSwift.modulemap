@@ -1,0 +1,6 @@
+framework module MTGSDKSwift {
+  umbrella header "MTGSDKSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
